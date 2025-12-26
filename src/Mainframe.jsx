@@ -6,7 +6,7 @@ import MyHikingMap from "./MyHikingMap";
 
 function Mainframe(){
 
-    const reference = "https://www.habitatauthority.org/";
+    const reference = "https://en.wikipedia.org/wiki/Mount_Baldy,_California";
     const choices = [ 
         {   name: "Mt. Baldy Notch via Bentley's Dream",
             file: "BaldyNotch-BentleyDream.csv",
