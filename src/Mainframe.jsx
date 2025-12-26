@@ -13,6 +13,11 @@ function Mainframe(){
             pos: {lat: 34.26634656520234,lng: -117.62685240340801}, //34.26634656520234, -117.62685240340801
             alltrails: "https://www.alltrails.com/trail/us/california/mt-baldy-notch-via-bentleys-dream?u=i&sh=sqfqqm"
         },
+        {   name: "Ice House Canyon Trail",
+            file: "IceHouseCanyon.csv",
+            pos: {lat: 34.25032933252726,lng: -117.63622960066348}, //34.25032933252726, -117.63622960066348
+            alltrails: "https://www.alltrails.com/trail/us/california/ice-house-canyon-trail?u=i&sh=sqfqqm"
+        },
     ];
     const [selectedOption, setSelectedOption] = useState(0); // Initial selected option
 
@@ -22,7 +27,7 @@ function Mainframe(){
 
 
     return <>
-        <Header title={"Angeles National Forest"} reference={reference}/>
+        <Header title={"Mt. Baldy"} reference={reference}/>
         <Stack spacing={1} direction="row">
         {
             choices.map((item, index) => {

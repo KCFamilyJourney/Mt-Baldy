@@ -10,7 +10,7 @@ function Header(props){
         <thead className="thead">
         <tr>
             <th>
-                <img src={sign} alt="Griffith Observatory picture" style={{width: "200px"}}></img>
+                <img src="https://www.fs.usda.gov/sites/nfs/files/styles/thumbnail/public/r05/angeles/image/mt_baldy_visitor_center.jpg?h=a1e1a043" alt="Mount Baldy Visitor Center" style={{width: "200px"}}></img>
             </th>
             <th>
                 <h1><a href={props.reference}>{props.title}</a></h1>  
